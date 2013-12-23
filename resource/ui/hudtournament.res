@@ -21,13 +21,13 @@
 		
 		if_mvm
 		{
-			"xpos"					"c-250"
-			"ypos"					"0"
-			"wide"					"500"
+			"xpos"					"0"
+			"ypos"					"1"
+			"wide"					"f0"
 			"tall"					"480"
 
 			"team1_player_base_y"			"68"
-			"team2_player_delta_x"			"55"
+			"team2_player_delta_x"			"57"
 		}
 		
 		"playerpanels_kv"
@@ -485,9 +485,9 @@
 		if_mvm
 		{
 			"font"			"HudFontSmallBold"
-			"xpos"			"155"
+			"xpos"			"c-100"
 			"ypos"			"105"
-			"wide"			"190"
+			"wide"			"200"
 			"tall"			"12"
 			"zpos"			"3"
 		}
@@ -514,9 +514,9 @@
 		if_mvm
 		{
 			"font"			"HudFontSmallBold"
-			"xpos"			"156"
+			"xpos"			"c-99"
 			"ypos"			"106"
-			"wide"			"190"
+			"wide"			"200"
 			"tall"			"12"
 			"visible"		"1"
 			"fgcolor"		"Black"
@@ -527,8 +527,8 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"CountdownBG"
-		"xpos"			"233"
-		"ypos"			"r48"
+		"xpos"			"c-17"
+		"ypos"			"r40"
 		"zpos"			"-1"
 		"wide"			"34"
 		"tall"			"34"
@@ -549,9 +549,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
-		"xpos"			"230"
-		"ypos"			"r50"
+		"font"			"HudFontmediumsmall"	//"HudFontGiant"
+		"xpos"			"c-20"
+		"ypos"			"r43"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"1"
@@ -568,9 +568,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
-		"xpos"			"231"
-		"ypos"			"r49"
+		"font"			"HudFontmediumsmall"
+		"xpos"			"c-19"
+		"ypos"			"r42"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"1"

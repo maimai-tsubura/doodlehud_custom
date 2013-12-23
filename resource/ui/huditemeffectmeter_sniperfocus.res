@@ -71,7 +71,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"	"46 43 42 126"
+		"bgcolor_override"	"0 0 0 64"
 		"fgcolor_override"	"White"
 	}
 	

@@ -72,10 +72,10 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"PlayerListBackground"
-		"xpos"			"100"
+		"xpos"			"50"
 		"ypos"			"75"
 		"zpos"			"-1"
-		"wide"			"400"
+		"wide"			"500"
 		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"
@@ -94,9 +94,9 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"110"
+		"xpos"			"60"
 		"ypos"			"79"
-		"wide"			"380"
+		"wide"			"480"
 		"tall"			"150"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -148,7 +148,8 @@
 			"textAlignment" "north-west"
 			"xpos"			"8"
 			"ypos"			"8"
-			"wide"			"200"
+			"wide"			"100"
+			"tall"			"25"
 			"fgcolor"		"tanlight"
 		}
 		
@@ -206,11 +207,11 @@
 			"fieldName"		"RespecStatusLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"%respecstatus%"
-			"textAlignment" "north-west"
-			"xpos"			"180"
+			"textAlignment" "north-east"
+			"xpos"			"115"
 			"ypos"			"8"
-			"wide"			"220"
-			"tall"			"40"
+			"wide"			"275"
+			"tall"			"20"
 			"fgcolor"		"tanlight"
 		}
 	}

@@ -17,7 +17,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"	"46 43 42 126"
+		"bgcolor_override"	"0 0 0 64"
 		"fgcolor_override"	"White"
 	}					
 	"ItemEffectMeterLabel"
@@ -39,28 +39,28 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"roboto10"
-		"fgcolor_override"		"0 0 0 255"	
+		"fgcolor_override"		"128 128 128 255"
 	}
-		"ItemEffectMeterLabel2"
+	"ItemEffectMeterLabel2"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel2"
-		"xpos"					"32"
+		"xpos"					"30"
 		"ypos"					"42"
 		"zpos"					"3"
 		"wide"					"145"
-		"tall"					"13"
+		"tall"					"12"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"25%          50%          75%        100"
+		"labelText"				"25%           50%         75%        100"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"DefaultVerySmall"
-		"fgcolor_override"		"200 200 200 255"	
+		"fgcolor_override"		"128 128 128 255"
 	}
 	"ChargeMeterBG"
 	{
@@ -76,7 +76,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"defaultbgcolor_override"	"46 43 42 126"
+		"defaultbgcolor_override"	"0 0 0 126"
 		"PaintBackgroundType"		"0"
 	}
 }
