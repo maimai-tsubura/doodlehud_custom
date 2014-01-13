@@ -708,14 +708,12 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
-		"wide"		"500"
-		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
+		"xpos"		"c-128"
+		"ypos"		"c-256"
+		"wide"		"256"
+		"tall"		"126"
 
-		"BgAlpha"	"128"
+		"BgAlpha"	"64"
 
 		"GrowTime"		"0.25"
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
@@ -1319,8 +1317,8 @@
 		"visible"	"1"
 		"enabled"	"1"
 
-		"xpos"		"1"
-		"ypos"		"3"
+		"xpos"		"0"
+		"ypos"		"1"
 		"zpos"		"0"
 		
 		"wide"		"f0"
@@ -1335,7 +1333,7 @@
 		// "fogCrosshairSmooth"   - Antialiased, not outlined
 		
 
-		"labeltext"	"r"
+		"labeltext"	"l"
 		//
 		// Choose your crosshair
 		// 

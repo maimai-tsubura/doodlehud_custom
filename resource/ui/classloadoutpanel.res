@@ -64,6 +64,28 @@
 				"allow_rot"				"0"
 			}
 		}
+
+		"itemoptionpanels_kv"
+		{
+			"ControlName"	"CExButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"14"
+			"tall"			"14"
+			"autoResize"	"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"+"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+		}
 	}
 	
 	"CaratLabel" // REMOVED
@@ -399,71 +421,18 @@
 		}		
 	}
 	
-	"HatSlotParticleSlider"
+	"ItemOptionsPanel"
 	{
 		"ControlName"	"CLoadoutParticleSlider"
-		"fieldName"		"HatSlotParticleSlider"
-		"xpos"			"c"
-		"ypos"			"100"
-		"wide"			"200"
-		"tall"			"40"
+		"fieldName"		"ItemOptionsPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"100"
+		"wide"			"140"
+		"tall"			"75"
 		"autoResize"	"1"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"+"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"particle_button_clicked"
-	}
-	
-	"Misc1SlotParticleSlider"
-	{
-		"ControlName"	"CLoadoutParticleSlider"
-		"fieldName"		"HatParticleSliderBackground"
-		"xpos"			"c"
-		"ypos"			"180"
-		"wide"			"200"
-		"tall"			"40"
-		"autoResize"	"1"
-		"visible"		"1"
+		"visible"		"0"
 		"bgcolor_override"	"TanDark"
 		"PaintBackgroundType"	"2"
 	}
-	"Misc2SlotParticleSlider"
-	{
-		"ControlName"	"CLoadoutParticleSlider"
-		"fieldName"		"Misc2SlotParticleSlider"
-		"xpos"			"c"
-		"ypos"			"260"
-		"wide"			"200"
-		"tall"			"40"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#GameUI_ParticleHatUseHead"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"1"
-		"wrap"		"0"
-		"centerwrap"		"0"
-		"textinsetx"		"6"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
-		"use_proportional_insets"		"0"
-		"Default"		"0"
-		"Command"		"particle_use_head_clicked"
-	}
-	
 }

@@ -5242,7 +5242,7 @@ Scheme
 // BXHUD
 		"11" 
 		{
-			"font" "resource/font/crosshairs.ttf"
+			"font" "resource/font/crosshairs.otf"
 			"name" "Crosshairs"
 		}
 		"12" 
