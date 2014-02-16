@@ -33,6 +33,9 @@
 			"text_center"	"0"
 			"text_yoffset"	"2"
 			"inset_eq_y"	"55"
+
+			"deferred_description"	"1"
+			"deferred_icon"			"1"
 		}
 		"modelpanels_kv"
 		{
@@ -55,6 +58,9 @@
 			"name_only"		"1"
 			"inset_eq_x"	"4"
 			"inset_eq_y"	"2"
+
+			"deferred_description"	"1"
+
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
