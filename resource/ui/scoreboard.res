@@ -25,59 +25,51 @@
 		"xpos"			"5"
 		"ypos"			"c-112"
 		"zpos"			"1"
-		"wide"			"260"
+		"wide"			"265"
 		"tall"			"224"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"DcGameDialog"
-        if_mvm
-        {
-            "visible"   "0"
-        }
-		"ypos_minmode"	"c-109"
-		"tall_minmode"	"106"
+		if_mvm
+		{
+		    "visible"   "0"
+		}
 	}
 	"BlueScoreBack"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueScoreBack"
-		"xpos"			"r265"
+		"xpos"			"r270"
 		"ypos"			"c-112"
 		"zpos"			"1"
-		"wide"			"260"
+		"wide"			"265"
 		"tall"			"224"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"DcGameDialog"
-        if_mvm
-        {
-            "visible"   "0"
-        }
-		"xpos_minmode"	"5"
-		"ypos_minmode"	"c2"
-		"tall_minmode"	"106"
+		if_mvm
+		{
+		    "visible"   "0"
+		}
 	}
 	"BluePlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"r265"
+		"xpos"			"r270"
 		"ypos"			"c-92"
 		"zpos"			"20"
-		"wide"			"260"
-		"tall"			"200"
+		"wide"			"265"
+		"tall"			"210"
 		"visible"		"1"
 		"enabled"		"1"
 		"autoresize"	"3"
 		"linespacing"	"12"
 		"fgcolor"		"blue"
-        if_mvm
-        {
-            "visible"   "0"
-        }
-		"xpos_minmode"	"5"
-		"ypos_minmode"	"c19"
-		"tall_minmode"	"87"
+		if_mvm
+		{
+		    "visible"   "0"
+		}
 	}
 	"RedPlayerList"
 	{
@@ -86,19 +78,17 @@
 		"xpos"			"5"
 		"ypos"			"c-92"
 		"zpos"			"20"
-		"wide"			"260"
-		"tall"			"200"
+		"wide"			"265"
+		"tall"			"210"
 		"visible"		"1"
 		"enabled"		"1"
 		"autoresize"	"3"
 		"linespacing"	"12"
 		"textcolor"		"red"
-        if_mvm
-        {
-            "visible"   "0"
-        }
-		"ypos_minmode"	"c-92"
-		"tall_minmode"	"87"
+		if_mvm
+		{
+		    "visible"   "0"
+		}
 	}
 
 	// Red Team Header
@@ -117,11 +107,10 @@
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
-        if_mvm
-        {
-            "visible"   "0"
-        }
-		"ypos_minmode"	"c-109"
+		if_mvm
+		{
+		    "visible"   "0"
+		}
 	}
 	"RedTeamScore"
 	{
@@ -138,11 +127,10 @@
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
-        if_mvm
-        {
-            "visible"   "0"
-        }
-		"ypos_minmode"	"c-109"
+		if_mvm
+		{
+		    "visible"   "0"
+		}
 	}
 	"RedTeamPlayerCount"
 	{
@@ -159,11 +147,10 @@
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
-        if_mvm
-        {
-            "visible"   "0"
-        }
-		"ypos_minmode"	"c-109"
+		if_mvm
+		{
+		    "visible"   "0"
+		}
 	}
 	
 	// Blue Team Header	
@@ -182,13 +169,10 @@
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
-        if_mvm
-        {
-            "visible"   "0"
-        }
-		"xpos_minmode"	"10"
-		"ypos_minmode"	"c2"
-		"textAlignment_minmode"	"west"
+		if_mvm
+		{
+		    "visible"   "0"
+		}
 	}
 	"BlueTeamScore"
 	{
@@ -205,13 +189,10 @@
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
-        if_mvm
-        {
-            "visible"   "0"
-        }
-		"xpos_minmode"	"220"
-		"ypos_minmode"	"c2"
-		"textAlignment_minmode"	"east"
+		if_mvm
+		{
+		    "visible"   "0"
+		}
 	}
 	"BlueTeamPlayerCount"
 	{
@@ -228,12 +209,10 @@
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
-        if_mvm
-        {
-            "visible"   "0"
-        }
-		"xpos_minmode"	"5"
-		"ypos_minmode"	"c2"
+		if_mvm
+		{
+		    "visible"   "0"
+		}
 	}
 	
 	"ServerLabel"
@@ -249,13 +228,10 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-        if_mvm
-        {
-            "visible"   "0"
-        }
-		"xpos_minmode"	"7"
-		"ypos_minmode"	"c-125"
-		"textAlignment_minmode"	"west"
+		if_mvm
+		{
+		    "visible"   "0"
+		}
 	}
 	"ServerTimeLeft"
 	{
@@ -270,8 +246,6 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos_minmode"	"7"
-		"ypos_minmode"	"c106"
         if_mvm
         {
             "visible"   "0"
@@ -291,15 +265,11 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-        if_mvm
-        {
-            "ypos"  "362"
-            "xpos"  "104"
-			"ypos_minmode"  "362"
-            "xpos_minmode"  "104"
-        }
-		"xpos_minmode"			"c-298"
-		"ypos_minmode"			"r56"
+		if_mvm
+		{
+		    "ypos"  "362"
+		    "xpos"  "104"
+		}
 	}
 	"SpectatorsInQueue"
 	{
@@ -328,7 +298,6 @@
 		"fieldName"		"LocalPlayerDuelStatsPanel"
 		"xpos"			"0"
 		"ypos"			"395"
-		"ypos_minmode"	"300"
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"53"
@@ -373,7 +342,7 @@
 			"fieldName"		"LocalPlayerData"
 			"xpos"			"75"
 			"ypos"			"0"
-			"wide"			"200"
+			"wide"			"21"
 			"tall"			"53"
 			"autoResize"	"0"
 			"pinCorner"		"0"

@@ -2,13 +2,8 @@
 //
 "GameMenu" [$WIN32]
 {
-	// DoodleHUD
-    "DoodleHUDButton"
-    {
-        "command" "engine play vo/taunts/pyro_highfive_success03"
-        "label" "                         "
-    }
-	// Main Buttons
+
+// Main Buttons
 	"ServerBrowserButton"
 	{
 		"label" "#MMenu_BrowseServers"

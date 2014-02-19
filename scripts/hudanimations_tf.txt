@@ -825,11 +825,17 @@ event DamagedPlayer
 	Animate	HitMarker		Alpha	"0"		Linear 0.3 0.1	
 
 	//custom
-	Animate	xHairLeftLine	fgcolor "255 0 0 52"	Linear 0.0 0.0
-	Animate xHairLeftLine	fgcolor "255 255 255 24"	Linear 0.24 0.0
+	Animate	xHairLeftLine1	Alpha "0"	Linear 0.0 0.0
+	Animate xHairLeftLine1	Alpha "255"	Linear 0.24 0.0
 
-	Animate	xHairRightLine	fgcolor "255 0 0 52"	Linear 0.0 0.0
-	Animate xHairRightLine	fgcolor "255 255 255 24"	Linear 0.24 0.0
+	Animate	xHairLeftLine2	Position	"0 240"	Linear 0.0 0.0
+	Animate xHairLeftLine2	Position	"9999 9999"	Linear 0.24 0.0
+
+	Animate	xHairRightLine1	Alpha "0"	Linear 0.0 0.0
+	Animate xHairRightLine1	Alpha "255"	Linear 0.24 0.0
+
+	Animate	xHairRightLine2	Position	"r330 240"	Linear 0.0 0.0
+	Animate xHairRightLine2	Position	"9999 9999"	Linear 0.24 0.0
 
 	Animate	xHairTopLine1	Alpha "0"	Linear 0.0 0.0
 	Animate xHairTopLine1	Alpha "255"	Linear 0.24 0.0

@@ -5212,10 +5212,10 @@ Scheme
 			"font" "resource/font/bebas.ttf"
 			"name" "Bebas"
 		}			
-// BXHUD
+	// BXHUD
 		"11" 
 		{
-			"font" "resource/font/crosshairs.otf"
+			"font" "resource/font/crosshairs.ttf"
 			"name" "Crosshairs"
 		}
 		"12" 
@@ -5228,7 +5228,7 @@ Scheme
 			"font" "resource/font/RobotoCondensed-Regular.ttf"
 			"name" "Roboto Condensed Regular"
 		}			
-// other
+	// other
 		"41"
 		{
 			"font" "resource/font/kokutetsu.ttf"

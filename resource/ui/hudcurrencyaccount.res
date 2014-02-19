@@ -1,39 +1,54 @@
 "Resource/UI/HudCurrencyAccount.res"
 {
+	"HudHealthBack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HudHealthBack"
+		"xpos"			"20"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"82"
+		"tall"			"22"
+		"visible"		"1"
+		"enabled"		"1"	
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"border"				"NoBorder"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"DcHudNumbers"
+	}
 	"Currency"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"DfHudAmmo"
+		"font"			"DfHudPipes"
 		"fgcolor"		"TanLight"
-		"xpos"			"11"
-		"ypos"			"17"
+		"xpos"			"20"
+		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"90"
-		"tall"			"45"
+		"wide"			"49"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"
+		"textAlignment"	"center"	
 		"labelText"		"%currency%"
-	}
-
+	}	
 	"CurrencyShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
-		"font"			"DfHudAmmo"
+		"font"			"DfHudPipes"
 		"fgcolor"		"Black"
-		"xpos"			"12"
-		"ypos"			"18"
+		"xpos"			"21"
+		"ypos"			"1"
 		"zpos"			"3"
-		"wide"			"90"
-		"tall"			"45"
+		"wide"			"49"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"
+		"textAlignment"	"center"	
 		"labelText"		"%currency%"
-	}
-
+	}	
 	"WhiteBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -47,8 +62,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"TanLight"
-	}
-
+	}	
 	"GreenBG"
 	{
 		"ControlName"	"EditablePanel"

@@ -6,11 +6,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-212"
-		"ypos"			"c89"
+		"xpos"			"0"	//"c-212"
+		"ypos"			"0"	//"c89"
 		"zpos"			"2"
-		"wide"			"150"
-		"tall"			"150"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
@@ -21,8 +21,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudHealthBack"
-		"xpos"			"48"
-		"ypos"			"3"
+		"xpos"			"c-164"	//"48"
+		"ypos"			"c92"	//"3"
 		"zpos"			"1"
 		"wide"			"102"
 		"tall"			"54"
@@ -38,8 +38,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"48"
-		"ypos"			"0"
+		"xpos"			"c-164"	//"48"
+		"ypos"			"c89"	//"0"
 		"zpos"			"5"
 		"wide"			"102"
 		"tall"			"54"
@@ -56,8 +56,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"49"
-		"ypos"			"1"
+		"xpos"			"c-163"	//"49"
+		"ypos"			"c90"	//"1"
 		"zpos"			"4"
 		"wide"			"102"
 		"tall"			"54"
@@ -74,7 +74,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
 		"xpos"			"12"
-		"ypos"			"8"
+		"ypos"			"c97"	//"8"
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"30"
@@ -89,7 +89,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
 		"xpos"			"12"
-		"ypos"			"8"
+		"ypos"			"c97"	//"8"
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"30"
@@ -104,7 +104,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
 		"xpos"			"12"
-		"ypos"			"8"
+		"ypos"			"c97"	//"8"
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"30"
@@ -119,7 +119,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
 		"xpos"			"12"
-		"ypos"			"8"
+		"ypos"			"c97"	//"8"
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"30"
@@ -134,11 +134,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBulletResistImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
-		"ypos"			"0"
+		"ypos"			"c98"	//"0"
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
+		"wide"			"28"
+		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -150,11 +149,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBlastResistImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
-		"ypos"			"0"
+		"ypos"			"c98"	//"0"
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
+		"wide"			"28"
+		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -166,11 +164,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberFireResistImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
-		"ypos"			"0"
+		"ypos"			"c98"	//"0"
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
+		"wide"			"28"
+		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -182,11 +179,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallBulletResistImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
-		"ypos"			"0"
+		"ypos"			"c98"	//"0"
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
+		"wide"			"28"
+		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -198,11 +194,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallBlastResistImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
-		"ypos"			"0"
+		"ypos"			"c98"	//"0"
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
+		"wide"			"28"
+		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -214,11 +209,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallFireResistImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
-		"ypos"			"0"
+		"ypos"			"c98"	//"0"
 		"zpos"			"7"
-		"wide"			"31"
-		"tall"			"31"
+		"wide"			"28"
+		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -229,10 +223,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"115"
-		"xpos_minmode"	"115"
-		"ypos"			"75"
-		"ypos_minmode"	"55"
+		"xpos"			"c-97"	//"115"
+		"ypos"			"c164"	//"75"
 		"zpos"			"7"
 		"wide"			"32"
 		"tall"			"32"
@@ -246,8 +238,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HealthTeamBack"
-		"xpos"			"48"
-		"ypos"			"55"
+		"xpos"			"c-164"	//"48"
+		"ypos"			"c144"	//"55"
 		"zpos"			"0"
 		"wide"			"102"
 		"tall"			"2"
@@ -271,7 +263,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierOffenseBuff"
 		"xpos"			"12"
-		"ypos"			"8"
+		"ypos"			"c97"	//"8"
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"30"
@@ -286,7 +278,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierDefenseBuff"
 		"xpos"			"12"
-		"ypos"			"8"
+		"ypos"			"c97"	//"8"
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"30"
@@ -301,7 +293,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierHealOnHitBuff"
 		"xpos"			"12"
-		"ypos"			"8"
+		"ypos"			"c97"	//"8"
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"30"
@@ -321,8 +313,8 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"zpos"			"4"
-		"xpos"	"10"
-		"ypos"	"44"
+		"xpos"	"c-202"	//"10"
+		"ypos"	"c133"	//"44"
 		"wide"	"51"
 		"tall"	"51"
 	}
@@ -335,8 +327,8 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"		"1"
 		"zpos"			"3"
-		"xpos"			"7"
-		"ypos"			"40"
+		"xpos"			"c-205"	//"7"
+		"ypos"			"c129"	//"40"
 		"wide"			"57"
 		"tall"			"58"	
 	}	
@@ -358,8 +350,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBGFlame"
-		"xpos"			"22"
-		"ypos"			"37"
+		"xpos"			"c-190"	//"22"
+		"ypos"			"c126"	//"37"
 		"zpos"			"1"
 		"wide"			"27"
 		"tall"	 		"64"
@@ -384,8 +376,8 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG2Flame"
-		"xpos"			"4"
-		"ypos"			"56"
+		"xpos"			"c-208"	//"4"
+		"ypos"			"c145"	//"56"
 		"zpos"			"1"
 		"wide"			"63"
 		"tall"	 		"26"
@@ -405,6 +397,176 @@
 		"src_corner_width"		"40"			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"	
+	}
+	/////////////
+	// BXHUD
+	fogCrosshair
+	{
+		"controlname"	"CExLabel"
+		"fieldname"	"fogCrosshair"
+		
+		"visible"	"1"
+		"visible_minmode"	"0"
+		"enabled"	"1"
+
+		"xpos"		"0"
+		"ypos"		"4"
+		"zpos"		"0"
+		
+		"wide"		"f0"
+		"tall"		"480"
+
+		"font"		"fogCrosshairSmooth"
+		//
+		// Choose what kind
+		//
+		// "fogCrosshair"         - Pixelated and outlined
+		// "fogCrosshairPlain"    - Pixelated and not outlined
+		// "fogCrosshairSmooth"   - Antialiased, not outlined
+		
+
+		"labeltext"	"l"
+		//
+		// Choose your crosshair
+		// 
+		// Change the "1" to represent the crosshair you want displayed in the Crosshairs.jpg
+		// Remember, each resolution behaves differently, if your crosshair is skewed, not centered,
+		// you will have to play around with the "xpos", "ypos", "wide" and "tall" values.
+		// THERE ARE NO FIXED NUMBERS FOR THIS
+
+		"textAlignment"	"center"
+		
+		"fgcolor"	"255 255 255 16"
+		//
+		// Crosshair color
+		// 
+		// If you change this, remember to change the same value in HudAnimations_tf.txt
+		// Otherwise the crosshair will change back to the default white color after
+		// flashing upon giving damage.
+	}
+	//MacoHUD
+	xHairLeftLine1
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"xHairLeftLine1"
+		"xpos"                  "0"
+		"xpos_lodef"    "279"
+		"xpos_hidef"    "309"
+		"ypos"                  "240"
+		"zpos"			"-10"
+		"wide"			"330"
+		"tall"			"1"
+		"visible"		"1"
+		"visible_minmode"	"0"
+		"enabled"		"1"	
+		"fillcolor"		"255 255 255 24"
+	}
+	
+	xHairLeftLine2
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"xHairLeftLine2"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"-10"
+		"wide"			"330"
+		"tall"			"1"
+		"visible"		"1"
+		"visible_minmode"	"0"
+		"enabled"		"1"	
+		"fillcolor"		"255 0 0 52"
+	}
+	
+	xHairRightLine1
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"xHairRightLine1"
+		"xpos"                  "r330"
+		"xpos_lodef"		"279"
+		"xpos_hidef"		"309"
+		"ypos"			"240"
+		"zpos"			"-10"
+		"wide"			"330"
+		"tall"			"1"
+		"visible"		"1"
+		"visible_minmode"	"0"
+		"enabled"		"1"	
+		"fillcolor"		"255 255 255 24"
+	}
+
+	xHairRightLine2
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"xHairRightLine2"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"-10"
+		"wide"			"330"
+		"tall"			"1"
+		"visible"		"1"
+		"visible_minmode"	"0"
+		"enabled"		"1"	
+		"fillcolor"		"255 0 0 52"
+	}
+
+	"xHairTopLine1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"xHairTopLine1"
+		"xpos"			"c0" //0
+		"ypos"			"0" //0
+		"zpos"			"-10"
+		"wide"			"1"
+		"tall"			"200" //228
+		"visible"		"1"
+		"visible_minmode"	"0"
+		"enabled"		"1"	
+		"fillcolor"		"255 255 255 24"
+	}
+
+	"xHairTopLine2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"xHairTopLine2"
+		"xpos"			"9999" //0
+		"ypos"			"9999" //0
+		"zpos"			"-11"
+		"wide"			"1"
+		"tall"			"200" //228
+		"visible"		"1"
+		"visible_minmode"	"0"
+		"enabled"		"1"	
+		"fillcolor"		"255 0 0 52"
+	}
+
+	"xHairBottomLine1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"xHairBottomLine1"
+		"xpos"			"c0"
+		"ypos"			"282"
+		"zpos"			"-10"
+		"wide"			"1"
+		"tall"			"200"
+		"visible"		"1"
+		"visible_minmode"	"0"
+		"enabled"		"1"	
+		"fillcolor"		"255 255 255 24"
+	}
+
+	"xHairBottomLine2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"xHairBottomLine2"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"-11"
+		"wide"			"1"
+		"tall"			"200"
+		"visible"		"1"
+		"visible_minmode"	"0"
+		"enabled"		"1"	
+		"fillcolor"		"255 0 0 52"
 	}
 }
 //
