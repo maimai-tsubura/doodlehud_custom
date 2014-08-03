@@ -16,13 +16,25 @@
 		"iconColor"		"255 255 255 255"
 	}
 	
+	"Divider"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"Divider"
+		"xpos"		"8"
+		"ypos"		"51"
+		"zpos"		"0"
+		"wide"		"436"
+		"tall"		"2"
+		"fillcolor"	"255 222 208 255"
+	}
+
 	"DestroyIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"DestroyIcon"
 		"xpos"			"0"
 		"ypos"			"-2"
-		"zpos"			"0"
+		"zpos"			"1"
 		"wide"			"64"
 		"tall"			"64"
 		"visible"		"0"
@@ -40,7 +52,7 @@
 		"fgcolor"		"Black"
 		"xpos"			"32"			// align me to the left edge of the first selection
 		"ypos"			"7"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"35"
 		"autoResize"	"0"
@@ -60,7 +72,7 @@
 		"font"			"HudFontGiantBold"
 		"xpos"			"31"			// align me to the left edge of the first selection
 		"ypos"			"4"
-		"zpos"			"2"
+		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"38"
 		"autoResize"	"0"

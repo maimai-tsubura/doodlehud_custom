@@ -175,7 +175,7 @@
 	"BugFixButton"
 	{
 		"label" ""
-		"command"   "record fix;stop"
+		"command"   "engine record fix;stop"
 		"subimage" "glyph_bug"
 		"tooltip"   "Bug Fix"
 		"OnlyInGame"    "1"

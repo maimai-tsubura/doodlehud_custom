@@ -17,6 +17,41 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"232 68 68 255"
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	"HudHealthBack"
 	{
 		"ControlName"	"EditablePanel"
@@ -34,6 +69,28 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"DcHudNumbers"
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -225,6 +282,8 @@
 		"fieldName"		"PlayerStatus_WheelOfDoom"
 		"xpos"			"c-97"	//"115"
 		"ypos"			"c164"	//"75"
+
+
 		"zpos"			"7"
 		"wide"			"32"
 		"tall"			"32"
@@ -255,6 +314,21 @@
 		"src_corner_width"		"12"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
+	}
+	"PlayerStatus_Parachute"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatus_Parachute"
+		"xpos"			"12"
+		"ypos"			"c97"	//"8"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			""
+		"fgcolor"		"TanDark"
 	}
 
 	// eveHUD
@@ -306,6 +380,7 @@
 
 	// 7HUD
 	"PlayerStatusHealthImage"
+
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
@@ -336,8 +411,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
+
 		"xpos"			"9999"	//"3"
 		"ypos"			"9999"	//"42"
+
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"60"
@@ -567,6 +644,8 @@
 		"visible_minmode"	"0"
 		"enabled"		"1"	
 		"fillcolor"		"255 0 0 52"
+
+
 	}
 }
 //

@@ -955,6 +955,67 @@
 		}
 		
 		// 6th column
+		"SupportLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SupportLabel"
+			"font"			"ScoreboardVerySmall"
+			"labelText" 		"#TF_Scoreboard_Support"
+			"textAlignment" 	"east"
+			"xpos"			"440"	//"465"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"60"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"DamageLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DamageLabel"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"#TF_Scoreboard_Damage"
+			"textAlignment"		"east"
+			"xpos"			"440"	//"465"
+			"ypos"			"12"
+			"zpos"			"3"
+			"wide"			"60"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"Support"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Support"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%support%"
+			"textAlignment"		"east"
+			"xpos"			"500"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"30"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"Damage"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Damage"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%damage%"
+			"textAlignment"		"east"
+			"xpos"			"500"
+			"ypos"			"12"
+			"zpos"			"3"
+			"wide"			"30"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		// 7th column
 		"MapName"
 		{
 			"ControlName"	"CExLabel"

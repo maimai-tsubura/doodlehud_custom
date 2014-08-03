@@ -256,6 +256,19 @@
 		"tall"			"93"
 		"PaintBackgroundType"	"0"
 	}
+	
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName"	"HudEurekaEffectTeleportMenu"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"c-115"	//"c-125"
+		"ypos"		"c-55"
+		"wide"		"250"
+		"tall"		"195"
+		"PaintBackgroundType"	"0"
+	}
+	
 	"HudMenuSpyDisguise"
 	{
 		"fieldName" 	"HudMenuSpyDisguise"
@@ -1320,6 +1333,18 @@
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
+	}
+
+	"HudMenuTauntSelection"
+	{
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-235"	//"r125"
+		"ypos"			"c-130"
+		"wide"			"500"	//"150"
+		"tall"			"250"
+		"PaintBackgroundType"	"0"
 	}
 }
 //
