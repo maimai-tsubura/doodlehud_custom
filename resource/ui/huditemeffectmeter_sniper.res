@@ -12,7 +12,6 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -25,18 +24,32 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_blue"
+		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3"		"../hud/misc_ammo_area_blue"			
 	}
-	
+	"HeadsIcon" // ABDH
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"HeadsIcon"
+		"xpos"			"26"
+		"ypos"			"4"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"	 		"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_dead"
+		"scaleImage"		"1"
+	}
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"15"	//"6"
-		"ypos"					"1"	//"0"
+		"xpos"					"36"	//"6"
+		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"80"
 		"tall"					"24"
@@ -46,11 +59,11 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Berzerk"
-		"textAlignment"			"south-east"
+		"textAlignment"			"south"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"		"DcWhite"
-		"font"					"DfVer24"	//"Cerbetica20"
+		"font"					"DfVer22"
 	}
 	"HudMeterLabelBack"
 	{

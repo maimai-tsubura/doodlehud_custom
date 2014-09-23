@@ -170,7 +170,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-90"
-		"ypos"			"c76"
+		"ypos"			"c56"	//"c76"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"50"

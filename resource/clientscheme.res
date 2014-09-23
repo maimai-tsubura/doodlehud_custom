@@ -606,6 +606,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"DfVer22"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"22"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"DfVer24"
 		{
 			"1"
