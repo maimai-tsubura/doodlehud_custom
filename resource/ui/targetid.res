@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"TargetIDBG"
-		"xpos"				"13"
+		"xpos"				"03"
 		"ypos"				"-24"
 		"zpos"				"-1"
 		"wide"				"252"
@@ -28,7 +28,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"TargetIDBG_Spec_blue"
-		"xpos"				"13"
+		"xpos"				"03"
 		"ypos"				"-24"
 		"zpos"				"-1"
 		"wide"				"252"
@@ -49,7 +49,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"TargetIDBG_Black_Bar"
-		"xpos"				"13"
+		"xpos"				"03"
 		"ypos"				"5"
 		"zpos"				"0"
 		"wide"				"350"
@@ -65,7 +65,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"TargetIDBG_Spec_red"
-		"xpos"				"13"
+		"xpos"				"03"
 		"ypos"				"-24"
 		"zpos"				"-1"
 		"wide"				"252"
@@ -128,10 +128,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"SpectatorGUIHealth"
-		"xpos"				"0"
+		"xpos"				"-5"
 		"zpos"				"1"
-		"ypos"				"-2"
-		"wide"				"55"
+		"ypos"				"-7"
+		"wide"				"60"
 		"tall"				"150"
 		"visible"			"1"
 		"enabled"			"1"	

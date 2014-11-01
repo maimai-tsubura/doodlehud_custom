@@ -708,8 +708,8 @@
 		"wide"	 "640"
 		"tall"	 "480"
 		"zpos" 	"2"
-		"xpos"			"130"
-		"ypos"			"r61"
+		"xpos"			"280"	//"130"
+		"ypos"			"r105"	//"r61"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
@@ -1345,6 +1345,16 @@
 		"wide"			"500"	//"150"
 		"tall"			"250"
 		"PaintBackgroundType"	"0"
+	}
+	HudMiniGame
+	{
+		"fieldName" "HudMiniGame"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
 	}
 }
 //
