@@ -704,8 +704,21 @@
 		"visible_minmode"	"0"
 		"enabled"		"1"	
 		"fillcolor"		"255 0 0 52"
-
-
+	}
+	//alpha doesn't work for this, you need to change the texture's alpha
+	"TransparentViewmodelMask"
+	{
+		"ControlName" "ImagePanel"
+		"fieldName"		"TransparentViewmodelMask"
+		"xpos"			"c0"	//"0"
+		"ypos"			"c0"	//"0"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"f0"	//"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/REFRACTnormal_transparent"
+		"scaleImage"		"1"
 	}
 }
 //
