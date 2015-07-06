@@ -237,6 +237,13 @@
 		"resize_to_text"	"1"
 		"padding_height"	"15"
 		"BackColor"
+		"name_only"			"1"
+		"model_ypos"	"40"
+		"model_xpos"	"50"
+		"model_wide"	"156"
+		"model_tall"	"100"
+		"text_forcesize"	"1"
+		"is_mouseover"		"1"
     	{
     		"ControlName"		"EditablePanel"
     		"fieldName"			"BackColor"

@@ -13,13 +13,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
+		"medal_width"		"15"
 		"avatar_width"	"44"	
-		"name_width"	"64"
+		"name_width"	"60"
+		"name_width_short"	"35"
 		"status_width"	"15"	
 		"nemesis_width"	"15"	
 		"class_width"	"15"	
 		"score_width"	"24"
 		"ping_width"	"24"
+		"stats_width"		"16"
+		"killstreak_width"	"10"
 	}
 	"BlueScoreBG"
 	{
@@ -130,7 +134,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"HudFontMedium"
+		"font"			"DfVer22"
 		"labelText"		"%blueteamname%"
 		"textAlignment"	"west"
 		"xpos"			"c124"
@@ -151,7 +155,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamLabelShadow"
-		"font"			"HudFontMedium"
+		"font"			"DfVer22"
 		"labelText"		"%blueteamname%"
 		"textAlignment"	"west"
 		"xpos"			"c125"
@@ -263,7 +267,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"HudFontMedium"
+		"font"			"DfVer22"
 		"labelText"		"%redteamname%"
 		"textAlignment"	"east"
 		"xpos"			"c-96"
@@ -287,7 +291,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamLabelShadow"
-		"font"			"HudFontMedium"
+		"font"			"DfVer22"
 		"labelText"		"%redteamname%"
 		"textAlignment"	"east"
 		"xpos"			"c-95"

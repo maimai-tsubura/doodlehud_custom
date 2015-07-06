@@ -72,7 +72,7 @@
 	}
 	"AdvancedOptionsButton"
 	{
-        "label" ""
+		"label" ""
 		"command"   "opentf2options"
 		"subimage"  "glyph_options"
 		"tooltip"   "Advanced Options"
@@ -141,7 +141,14 @@
 		"OnlyInGame"    "1"
 		"tooltip" "No-draw"
 	}
-
+        "PlayCompetitiveButton"
+	{
+		"label"			"#MMenu_PlayComp" 
+		"command"		"ladder_ui_show"
+		"subimage"		"glyph_practice"
+		"OnlyAtMenu"		"1"
+		"OnlyWhenCompetitiveEnabled"	"1"
+	}
 	// Buttons
 	"QuickplayButton"
 	{

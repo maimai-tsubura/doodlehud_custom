@@ -334,14 +334,14 @@
 		"text_xpos"			"80"
 		"text_wide"			"170"
 		"text_center"		"1"
-		"max_text_height"	"90"
-		"padding_height"	"32"
+		"max_text_height"	"100"
+		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		"itemmodelpanel"
 		{
 			"fieldName"				"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"			"1"
 		}
 		"ItemLabel"
