@@ -1,10 +1,10 @@
-"Resource/UI/disguise_menu/scout_red.res"
+"Resource/UI/disguise_menu/scout_blue.res"
 {
 	"ItemNameLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemName"
-		"font"			"DefaultShadow"
+		"font"			"Default"
 		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -16,8 +16,7 @@
 		"fgcolor"		"104 124 155 255"
 		"labelText"		"#TF_Class_Name_Scout"
 	}
-	
-	"ClassIcon"	
+	"ClassIcon"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ClassIcon"
@@ -26,8 +25,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
-	"NumberBg"	
+	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"NumberBg"
@@ -36,38 +34,44 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	
 	"NewNumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"DefaultShadow"
+		"font"			"Default"
+		"fgcolor"		"150 150 150 255"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"15"
 		"tall"			"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"east"
-		"fgcolor"		"104 124 155 255"
 		"labelText"		"1"
+		"textAlignment"	"east"
+		"dulltext"		"1"
+		"brighttext"	"0"
 	}
-	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"DefaultShadow"
+		"font"			"Default"
+		"fgcolor"		"150 150 150 255"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"15"
 		"tall"			"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"
-		"fgcolor"		"104 124 155 255"
 		"labelText"		"1"
+		"textAlignment"	"east"
+		"dulltext"		"1"
+		"brighttext"	"0"
 	}
 }

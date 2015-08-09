@@ -141,14 +141,6 @@
 		"OnlyInGame"    "1"
 		"tooltip" "No-draw"
 	}
-        "PlayCompetitiveButton"
-	{
-		"label"			"#MMenu_PlayComp" 
-		"command"		"ladder_ui_show"
-		"subimage"		"glyph_practice"
-		"OnlyAtMenu"		"1"
-		"OnlyWhenCompetitiveEnabled"	"1"
-	}
 	// Buttons
 	"QuickplayButton"
 	{
@@ -208,6 +200,15 @@
 		"command"   "motd_show"
 		"subimage"  "glyph_message"
 		"tooltip"   "View News"
+	}
+        "PlayCompetitiveButton"
+	{
+		"label"			"#MMenu_PlayComp" 
+		"command"		"ladder_ui_show"
+		"subimage"		"glyph_practice"
+		"OnlyAtMenu"		"1"
+		"OnlyWhenCompetitiveEnabled"	"1"
+		"tooltip" "View Competitive"
 	}
     	"VRModeButton"
 	{
